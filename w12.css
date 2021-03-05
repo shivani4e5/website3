@@ -1,0 +1,603 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.preloader{
+    display:none;
+    top:0;
+    bottom:0;
+    width:100%;
+    height:100vh;
+    position:fixed;
+    background:#7004bc;
+    overflow:hidden;
+    text-align:center;
+    z-index:800;
+}
+.box{
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:inline-block;
+}
+nav{
+    background:#7004bc;
+}
+.navbar .navbar-brand.logo{
+    color:white;
+    font-size:30px;
+    font-weight:500;
+    margin:10px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color:white;
+    padding-left:20px;
+    margin-left:10px;
+    display:flex;
+    position:relative;
+}
+.navbar .navbar-nav .nav-item .nav-link button{
+    border:2px solid #fff;
+    border-radius:30px;
+    color:white;
+    font-size:15px;
+    font-weight:400;
+    background:none;
+    padding:5px 15px;
+}
+.navbar .navbar-nav .nav-item .nav-link button:hover{
+   animation:header1 ease-in forwards;
+   animation-delay:0.01s;
+   animation-duration:500;
+}
+@keyframes header1{
+    100%{
+        background:white;
+        color:black;
+    }
+}
+.navbar .navbar-nav .nav-item .nav-link i:hover{
+color:black;
+}
+#header .navbar .toggle i{
+    color:white;
+    font-size:40px;
+    font-weight:200px;
+    border:none;
+    
+}
+.section{
+    background:#7004bc;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:100vh;
+    width:100%;
+    
+}
+.section .imgBx{
+    padding:50px 280px 180px;
+    
+}
+.section .contentBx{
+    color:white;
+   padding-bottom:12em;
+   justify-content:center;
+   align-items:center;
+   transform:translateX(-35%);
+}
+.section .contentBx .content .heading{
+    font-size:50px;
+    font-weight:700;
+    letter-spacing:0.3px;
+    color:#e83e8c;
+}
+.section .contentBx .content h2 span{
+    font-size:55px;
+    font-weight:700;
+    letter-spacing:0.4px;
+
+}
+.section .contentBx .content .text{
+    font-size:15px;
+    font-weight:200;
+    letter-spacing:1px;
+}
+.section .contentBx .content button{
+    border:transparent;
+    border-radius:30px;
+    color:white;
+    font-size:15px;
+    font-weight:400;
+    background:none;
+    padding:12px 40px;
+    background:#e83e8c;
+}
+
+.section .imgBx .img{
+    top:0;
+    right:0;
+    max-width:400px;
+    transform:translateX(180%);
+}
+.section .imgBx .imgbx{
+    top:0;
+    left:-22em;
+    max-width:600px;
+    position:absolute;
+    display:flex;
+    padding-bottom:10em;
+}
+.section .btn i{
+    width:100px;
+    height:20px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    color:white;
+    cursor:pointer;
+    bottom:0;
+    transform:translateX(-600%);
+    padding-top:20em;
+    color:#fff;
+}
+section{
+    width:100%;
+    height:100vh;
+}
+section .container .contentBx{
+    padding-top:3em;
+    background:#ffffff;
+    width:50%;
+}
+section .container h4{
+    font-size:20px;
+    font-weight:500;
+    letter-spacing:0.5px;
+    padding-top:3em;
+    color:brown;
+}
+section .container h1{
+    font-size:60px;
+    font-weight:450;
+    
+}
+section .container h1 span{
+    color:#007bff;
+}
+section .container .image img{
+    max-width:520px;
+    padding-top:5em;
+    margin-right:3em;
+    padding-left:3em;
+}
+section .container .text{
+     font-size:15px;
+    font-weight:400;
+    letter-spacing:1px;
+    padding-top:1em;
+}
+section .container button{
+    border:transparent;
+    border-radius:30px;
+    color:white;
+    font-size:15px;
+    font-weight:400;
+    background:none;
+    padding:12px 40px;
+    background:#e83e8c;
+}
+section .container .icons{
+    position:relative;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:30px;
+    max-width:100%;
+    margin-top:6em;
+    margin-left:5em;
+}
+section .container .icons .img1 img{
+    padding-left:2em;
+    max-width:120px;
+    cursor:pointer;
+}
+section .container .icons .text1{
+    color:black;
+    font-size:18px;
+    font-weight:400;
+    letter-spacing:0.5px;
+}
+section{
+    padding-top:6em;
+}
+section .exp .image img{
+    padding-right:3em;
+    max-width:520px;
+    padding-top:6em;
+}
+section .contentBx .heading1{
+    color:black;
+}
+section .contentBx .heading2{
+    font-size:40px;
+    font-weight:600;
+}
+section .row .img img{
+    max-width:90px;
+   padding-top:5em;
+   flex-direction:row;
+}
+section .row .img h4{
+    color:#e83e8c;
+}
+section .row .img .img1{
+    padding-left:3em;
+
+}
+section .row .img .img2{
+    padding-left:2em;
+    transform:translateX(-10%);
+}
+section .row .img .img3{
+padding-left:1em;
+}
+section .row .img .text1{
+    padding:2em;
+    transform:translate(-2%,-10%);
+}
+section .row .img .text2{
+    padding:1em;
+    transform:translateY(-10%);
+}
+section .row .img .text3{
+   transform:translate(10%,-50%);
+}
+section .About{
+    width:100%;
+    height:100vh;
+    background:#7004bc;
+}
+section .contentBx1{
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    padding-top:7em;
+}
+section .contentBx1 h2{
+    text-align:center;
+    font-size:40px;
+    letter-spacing:0.5px;
+    font-weight:700;
+}
+section .contentBx1 h2 span{
+    color:#e83e8c;
+}
+section .contentBx1 p{
+    font-weight:400;
+    text-align:center;
+}
+section .row .img1 img{
+    max-width:330px;
+    padding-left:7em;
+    transform:translateY(-150%);
+}
+section .row .img1 h4{
+    transform:translate(20%,-100%);
+    padding-bottom:10em;
+    padding-left:5em;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    color:#e83e8c;
+}
+section .row i{
+    color:black;
+    transform:translate(300%,-3000%);
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    padding-left:2em;
+    cursor:pointer;
+}
+.section1 .contentBx1{
+    padding-bottom:2em;
+}
+/* Add padding BE
+.row,
+.row > .column {
+  padding: 8px;
+}*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width:33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons 
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}*/
+
+/* Add a grey background color on mouse-over 
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+ outline:none;
+ border:none;
+}
+.section1 #myBtnContainer .btn{
+    justify-content:center;
+    align-items:center;
+    border:none;
+   outline:none;
+   cursor:pointer;
+}
+.section1 img{
+    cursor:pointer;
+}
+.section2 .contentBx1{
+padding:3em;
+margin-top:20em;
+background:#7004bc;
+}
+.section2 .contentBx1 .heading2{
+    color:white;
+    font-size:50px;
+    font-weight:600;
+    letter-spacing:0.01px;
+}
+.section2 .contentBx1 .heading2 span{
+    color:#007bff;
+}
+.section2 .contentBx1 p{
+    color:white;
+    font-size:20px;
+    font-weight:450;
+    padding-top:5em;
+}
+.section2 .contentBx1 h4{
+    color:#e83e8c;
+    padding-top:3em;
+    font-weight:500;
+}
+.section2 .contentBx1 span{
+    color:white;
+    padding-top:2em;
+}
+.section2 .contentBx1 .imy img{
+    max-width:100px;
+    color:yellow;
+    cursor:pointer;
+}
+.section2 .contentBx1 .imgsec img{
+    max-width:70px;
+    border:3px solid #fff;
+    border-radius:50%;
+    background:white;
+}
+.section2 .contentBx1 .imgsec .img1 img{
+    top:7em;
+    left:5em;
+    position:absolute;
+}
+.section2 .contentBx1 .imgsec .img2 img{
+    top:15em;
+    left:15em;
+    position:absolute;
+}
+.section2 .contentBx1 .imgsec .img3 img{
+    top:20em;
+    left:5em;
+    position:absolute;
+}
+.section2 .contentBx1 .imgsec .img4 img{
+    top:30em;
+    left:15em;
+    position:absolute;
+}
+.section2 .contentBx1 .imgsec .img5 img{
+    top:22em;
+    right:13em;
+    position:absolute;
+}
+.section2 .contentBx1 .imgsec .img6 img{
+    top:15em;
+    right:4em;
+    position:absolute;
+}
+.section2 .contentBx1 .imgsec .img7 img{
+    top:30em;
+    right:4em;
+    position:absolute;
+}
+.section2 .contentBx1 .imgsec .img8 img{
+    top:7em;
+    right:12em;
+    position:absolute;
+}
+.section3 .contentBx1{
+    margin-top:20em;
+}
+.section3 .contentBx1 h2 span{
+    color:#007bff;
+}
+.section3 .contentBx1 h2{
+    font-weight:450;
+}
+.section3 .contentBx1 h4{
+    font-weight:400;
+    font-size:18px;
+}
+.section3 .imagesec .ima1 img{
+    max-width:330px;
+    border:transparent;
+    border-radius:10px;
+}
+.section3 .imagesec .ima2 img{
+    max-width:50px;
+    border:1px solid #000;
+    border-radius:50%;
+    background:#007bff;
+}
+.section3 .imagesec .ima2{
+    padding-top:1em;
+    padding-left:2em;
+}
+.section3 .imagesec .ima2 span{
+    padding-left:1em;
+    font-weight:500;
+    color:#e83e8c;
+}
+.section3 .imagesec .ima3 img{
+    max-width:50px;
+    border:1px solid #000;
+    border-radius:50%;
+    background:#e83e8c;
+}
+.section3 .imagesec .ima3{
+    padding-top:1em;
+    padding-left:2em;
+}
+.section3 .imagesec .ima3 span{
+    padding-left:1em;
+    font-weight:500;
+    color:#e83e8c;
+}
+.section3 .imagesec .ima4 img{
+    max-width:50px;
+    border:1px solid #000;
+    border-radius:50%;
+    background:#7004bc;
+}
+.section3 .imagesec .ima4{
+    padding-top:1em;
+    padding-left:2em;
+}
+.section3 .imagesec .ima4 span{
+    padding-left:1em;
+    font-weight:500;
+    color:#e83e8c;
+}
+.section3 .container .row .imagesec{
+    padding-top:2em;
+    margin:1em;
+    position:relative;
+    display:flex;
+}
+.section3 .container .row .imagesec .date span{
+    color:#e83e8c;
+}
+.section3 .container .row .imagesec .header{
+    font-size:25px;
+    font-weight:400;
+}
+.section3 .container .row .imagesec .para{
+    padding-top:3px;
+    font-size:15px;
+    font-weight:400;
+    letter-spacing:1px;
+}
+.section3 .contentBx1 .imagesec:hover{
+    box-shadow:5px 5px 5px #ddd;
+    cursor:pointer;
+}
+.section3 .img{
+    padding:10em;
+    background:#7004bc;
+    margin-top:10em;
+}
+.section3 .img img{
+    padding:3em;
+}
+.section4{
+margin-top:70em;
+}
+.section4 .form h1{
+    font-size:45px;
+    font-weight:600;
+}
+.section4 .form .form-group{
+    width:100%;
+    margin-top:2em;
+}
+.section4 .form input[type="text"],[type="email"]{
+    width:240px;
+    border:1px solid #dedede;
+    border-radius:7px;
+}
+.section4 textarea{
+    min-height: 170px;
+    resize: none;
+    width:70%;
+    margin-top:5em;
+}
+.section4 [type="button"]{
+   background: #7004bc;
+    border:1px solid #7004bc;
+    color: #ffffff;
+    text-align:center;
+    justify-content:center;
+    line-height:1.3;
+}
+.section4 .location h1{
+font-size:45px;
+    font-weight:600;
+}
+.section4 .location P{
+     padding-top:2em;
+    font-size:15px;
+    font-weight:400;
+    letter-spacing:1px;
+}
+.section4 .location .icon2{
+    padding:1em;
+    font-size:15px;
+    font-weight:450;
+    letter-spacing:1px;
+}
+footer{
+    height:100px;
+    background:#ddd;
+    padding:2em;
+}
+.footer-area .social{
+margin-right:50em;
+}
+.footer-area .social i{
+    margin:0 1.5em;
+    color:black;
+}
+.footer-area .social i:hover{
+    margin:0 1.5em;
+    color:blue;
+}
+.footer-area p{
+    margin-left:50em;
+}
